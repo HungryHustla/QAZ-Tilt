@@ -35,7 +35,7 @@
     &kp Q        &kp W       &kp E       &kp R       &kp T  &kp Y    &kp U       &kp I       &kp O      &kp P
     &hm LGUI A   &hm LALT S  &hm LCTRL D &hm LSHFT F &kp G  &kp H    &hm RSHFT J &hm RCTRL K &hm RALT L &kp SQT
     &hm LSHFT Z  &kp X       &kp C       &kp V       &kp B  &kp N    &kp M       &kp DOT     &hm RSHFT ENTER
-    &kp LCTRL    &kp LGUI    &none       &none    &lt NUMBRS SPACE   &none       &lt SYMBOLS QMARK      &tog GAMING
+    &kp LCTRL    &kp LGUI    &none       &none    &lt NUMBRS SPACE   &none       &kp QMARK      &tog GAMING
             >;
         };
         SYMBOLS {
@@ -43,7 +43,7 @@
     &kp EXCL     &kp AT_SIGN   &kp POUND        &kp DOLLAR    &kp PRCNT      &kp CARET        &kp AMPS     &kp STAR      &kp LPAR    &kp RPAR
     &kp LBKT     &kp RBKT      &kp LBRC         &kp RBRC      &kp LESS_THAN  &kp GREATER_THAN &kp LEFT     &kp DOWN      &kp UP      &kp RIGHT
     &kp COLON    &kp SEMI      &kp UNDERSCORE   &kp TILDE     &none          &none            &kp COMMA    &kp DOT       &kp FSLH
-    &none        &none         &none            &none         &trans         &none            &bootloader  &reset
+    &none        &none         &none            &trans         &trans         &none            &bootloader  &reset
             >;
         };
 
@@ -52,7 +52,7 @@
     &kp ESC      &kp N7      &kp N8    &kp N9       &kp N0       &none   &none        &none      &none     &kp DEL
     &kp TAB      &kp N4      &kp N5    &kp N6       &kp MINUS    &none   &kp LEFT     &kp DOWN   &kp UP    &kp RIGHT
     &trans       &kp N1      &kp N2    &kp N3       &kp PLUS     &none   &none        &none      &none
-    &bt BT_CLR   &bt BT_NXT  &none     &none         &trans       &none  &none        &none
+    &bt BT_CLR   &bt BT_NXT  &none     &none        &trans       &none   &none        &none
             >;
         };
     GAMING { 
@@ -60,7 +60,7 @@
     &kp TAB      &kp Q     &kp W    &kp E       &kp R  &kp T      &kp Y         &kp U      &kp I      &kp BSPC
     &kp LCTRL    &kp A     &kp S    &kp D       &kp F  &kp G      &kp H         &kp J      &kp K      &kp L
     &kp LSHFT    &kp Z     &kp X    &kp C       &kp V  &kp B      &kp N         &kp M      &kp ENTER
-    &kp ESC      &kp LGUI  &none    &trans      &lt NUMBRS SPACE  &none         &kp DEL    &tog GAMING   
+    &kp ESC      &kp LGUI  &none    &none       &kp SPACE         &none         &kp DEL    &tog GAMING   
             >;
         };
     };
